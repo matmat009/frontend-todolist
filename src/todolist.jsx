@@ -10,7 +10,7 @@ function App() {
   const [deleteMessage, setDeleteMessage] = useState(""); // New state for delete message
   const [editMessage, setEditMessage] = useState(""); // New state for edit message
 
-  const API_URL = "https://django-backend-todolist-app.onrender.com/api/todos/";
+  const API_URL = "https://backend-project-todolist-1.onrender.com/api/todos/";
 
   const fetchTasks = async () => {
     try {
